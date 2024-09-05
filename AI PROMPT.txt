@@ -1,0 +1,4 @@
+Used below prompt to get a workable code.
+“Generate Solidity code for a basic ERC-20 token named ‘MyToken’ 
+with a total supply of 1,000,000 tokens.” 
+make sure it is for Remix ide 
