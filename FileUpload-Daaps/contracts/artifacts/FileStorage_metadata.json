@@ -1,0 +1,190 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "fileId",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "fileHash",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "fileSize",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "fileType",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "fileName",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "uploadTime",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "uploader",
+						"type": "address"
+					}
+				],
+				"name": "FileUploaded",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "fileCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "files",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "fileId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "fileHash",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "fileSize",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "fileType",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "fileName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "uploadTime",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "uploader",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_fileHash",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_fileSize",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_fileType",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_fileName",
+						"type": "string"
+					}
+				],
+				"name": "uploadFile",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/FileUpload.sol": "FileStorage"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/FileUpload.sol": {
+			"keccak256": "0x67d733d254eabc492c32fe75479c004af6a1ebd71f2dac10b51b4b54ea124277",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://35c1fac1cb146d2e319eb978f183b1deef6a2b17090ed64f4a011802aea30275",
+				"dweb:/ipfs/QmbS9JNArGFosgYJBLGot2tRgQ1os2MBBQ82moATnqNNJ2"
+			]
+		}
+	},
+	"version": 1
+}
